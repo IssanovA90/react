@@ -1,0 +1,6 @@
+.header__container {
+    height: 46px;
+
+    display: flex;
+    align-items: center;
+}

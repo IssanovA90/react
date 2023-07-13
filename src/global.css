@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --primary-color: #EBDCB2;
+    --secondary-color: #c9a66b;
+    --app-bg-color: rgba(0, 0, 0, 0.9);
+    --app-border-radius: 12px;
+    --negative-color: #E66868;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+    background: var(--app-bg-color);
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}

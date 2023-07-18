@@ -1,6 +1,7 @@
 .tasks__grid__item {
     background: var(--primary-color);
     border-radius: var(--app-border-radius);
+    text-align: center;
 }
 
 .tasks__header {

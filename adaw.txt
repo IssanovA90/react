@@ -1,0 +1,6 @@
+git init
+git branch -M main
+git remote add origin https://github.com/IssanovA90/react-two-lesson.git
+git add .
+git commit -m "hello"
+git push origin main

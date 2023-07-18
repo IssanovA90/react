@@ -1,24 +1,30 @@
 .task__box {
     overflow-wrap: break-word;
-    border-radius: 8px;
-    background-color: bisque;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-
+    border-radius: 20px;
+    color: brown;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
     width: 85%;
     min-height: 48px;
-    
-    text-align: left;
-    font-size: 10px;
-
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
     margin: 6px 0;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.box__button{
+
+.task__box:hover {
+    background-color: aqua;
+}
+
+.box__button {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    
+    gap: 15px;
 }
-.silver{
-    background-color: bisque;
+
+.silver {
+    background: none;
 }

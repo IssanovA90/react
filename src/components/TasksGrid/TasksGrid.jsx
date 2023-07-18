@@ -4,9 +4,9 @@ import { TaskType } from "../tasktypes";
 import './TasksGrid.css'
 
 const listTypes = [
-    {name: 'Tasks to do', type: TaskType['TODO']},
-    {name:'Tasks in progress', type:TaskType['PROGRESS'] },
-    {name:'Completed tasks ', type:TaskType['FINISHED']}
+    {name: 'Нужно сделать', type: TaskType['TODO']},
+    {name:'Выполнение задач', type:TaskType['PROGRESS'] },
+    {name:'Выполненые задчи ', type:TaskType['FINISHED']}
 ]
 
 function TasksGrid({tasks, setTasks}) {
@@ -28,5 +28,4 @@ function TasksGrid({tasks, setTasks}) {
         </Container>
     )
 }
-
 export default TasksGrid;
